@@ -1,0 +1,78 @@
+---
+title: "Mock Manuscript: Determination of pKa Using Spectrophotometric
+Speciation Analysis"
+author: "Emiko Yesaki"
+date: "2026-02-11"
+output:
+  pdf_document: default
+  html_document: default
+bibliography: references.bib
+cls: peerj.csl
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# **Mock Manuscript**
+
+## **Title**
+
+**Determination of pKa Using Spectrophotometric
+Speciation Analysis**
+
+## **Authors**
+
+E. Yesaki, University of British Columbia Okanagan
+
+## **Abstract**
+
+This study investigates the acid–base behavior of a pH indicator dye by measuring absorbance at two wavelengths (435 nm and 593 nm) across a range of buffer solutions. Using Beer–Lambert–derived concentrations of protonated and deprotonated species, we constructed speciation plots and applied the Henderson–Hasselbalch equation to estimate the indicator’s pKa. The two analytical approaches produced consistent pKa values, demonstrating the reliability of spectrophotometric methods for acid–base characterization.
+
+## **Introduction**
+
+...
+
+## **Methods**
+
+### **Sample Preparation**
+
+Buffer solutions spanning a range of pH values were prepared according to the Lab T protocol. A fixed concentration of indicator dye was added to each solution to ensure consistent absorbance measurements.
+
+### **Sample Running**
+
+Absorbance at 435 nm and 593 nm was measured for each sample using a calibrated spectrophotometer. pH was recorded using a standard pH meter. All measurements were entered into the processed dataset.
+
+### **Data Analysis**
+
+Absorbance values were converted to concentrations using the Beer–Lambert law and known molar absorptivities. The ratio $[In^{2-}]/[HIn^{-}]$ and its logarithm were calculated. pKa was estimated using: 1. **Speciation midpoint** (ratio = 1)\
+2. **Henderson–Hasselbalch regression** of pH vs. log ratio
+
+## **Results**
+
+The indicator displayed a smooth transition between protonated and deprotonated forms across the measured pH range. Both analytical methods produced similar pKa values, indicating internal consistency.
+
+## **Discussion**
+
+This is a test citation @zhang2022. Another citation @brito2024.
+
+## **Conclusion**
+
+```{r echo=FALSE}
+knitr::kable(
+  data.frame(
+    Method = c("Speciation midpoint", "Henderson–Hasselbalch regression"),
+    Estimated_pKa = c("pKa_speciation", "pKa_HH"),
+    Description = c(
+      "pH at which [In2-]/[HIn-] = 1",
+      "Intercept of linear regression of pH vs log ratio"
+    )
+  ),
+  caption = "Comparison of pKa estimation methods used in Lab T."
+)
+```
+
+## References
+
+::: {#refs}
+:::
