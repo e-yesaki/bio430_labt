@@ -7,7 +7,7 @@ This readme file was generated on [2026-01-22] by [EMIKO YESAKI]
 
 # GENERAL INFORMATION
 
--   Acids and Bases - Speciation Plots and Determination of pKa
+-   Determination of pKa Using Spectrophotometric Speciation Analysis
 
 ## Author/Principal Investigator Information
 
