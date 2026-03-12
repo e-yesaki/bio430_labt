@@ -1,6 +1,5 @@
 ---
-title: "Mock Manuscript: Determination of pKa Using Spectrophotometric
-Speciation Analysis"
+title: "Mock Manuscript: Determination of pKa Using Spectrophotometric Speciation Analysis"
 author: "Emiko Yesaki"
 date: "2026-02-11"
 output:
@@ -18,8 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## **Title**
 
-**Determination of pKa Using Spectrophotometric
-Speciation Analysis**
+**Determination of pKa Using Spectrophotometric Speciation Analysis**
 
 ## **Authors**
 
@@ -76,3 +74,4 @@ knitr::kable(
 
 ::: {#refs}
 :::
+
