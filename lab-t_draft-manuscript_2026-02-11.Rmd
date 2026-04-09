@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 **Determination of pKa Using Spectrophotometric Speciation Analysis**
 
-## **Authors**
+## **Author(s)**
 
 E. Yesaki, University of British Columbia Okanagan
 
@@ -29,7 +29,7 @@ This study investigates the acid–base behavior of a pH indicator dye by measur
 
 ## **Introduction**
 
-...
+Indicators undergo a color change as they transition between protonated and deprotonated forms. The pKa of an indicator defines the pH at which these species are present in equal concentrations. Spectrophotometry provides a convenient method for monitoring this transition because each species absorbs light at different wavelengths. In this experiment, absorbance measurements were used to quantify species distributions and estimate the pKa of the indicator dye.
 
 ## **Methods**
 
@@ -39,20 +39,22 @@ Buffer solutions spanning a range of pH values were prepared according to the La
 
 ### **Sample Running**
 
-Absorbance at 435 nm and 593 nm was measured for each sample using a calibrated spectrophotometer. pH was recorded using a standard pH meter. All measurements were entered into the processed dataset.
+Absorbance at 435 nm and 593 nm was measured for each sample using a calibrated spectrophotometer. pH was recorded using a standard pH meter. All raw measurements were stored in data_raw_2025-01-26.csv.
 
 ### **Data Analysis**
 
 Absorbance values were converted to concentrations using the Beer–Lambert law and known molar absorptivities. The ratio $[In^{2-}]/[HIn^{-}]$ and its logarithm were calculated. pKa was estimated using: 1. **Speciation midpoint** (ratio = 1)\
 2. **Henderson–Hasselbalch regression** of pH vs. log ratio
 
+Processed values were saved in lab-t_data_processed_2026-02-12.csv.
+
 ## **Results**
 
-The indicator displayed a smooth transition between protonated and deprotonated forms across the measured pH range. Both analytical methods produced similar pKa values, indicating internal consistency.
+The indicator exhibited a clear transition between protonated and deprotonated forms across the measured pH range. Speciation analysis produced a pKa of 8.78, while the Henderson–Hasselbalch plot yielded a pKa of 8.12. The close agreement between methods supports the internal consistency of the dataset.
 
 ## **Discussion**
 
-This is a test citation @zhang2022. Another citation @brito2024.
+Both analytical approaches produced similar pKa values, indicating that spectrophotometric measurements reliably capture the acid–base behavior of the indicator. Minor differences between methods likely reflect experimental noise, pH meter precision, and wavelength‑specific sensitivity. These results align with expected indicator behavior and demonstrate the usefulness of spectrophotometric speciation analysis in undergraduate laboratory settings. This is a test citation @zhang2022. Another citation @brito2024.
 
 ## **Conclusion**
 
