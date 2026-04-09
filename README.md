@@ -1,4 +1,4 @@
-# bio430_labT
+# READ ME FIRST bio430_labT
 A repository for chemistry Laboratory T (mini project): Determination of pKa Using Spectrophotometric Speciation Analysis.
 
 This readme file was generated on [2026-01-22] by [EMIKO YESAKI]
