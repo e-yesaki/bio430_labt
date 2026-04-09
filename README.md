@@ -31,32 +31,26 @@ This project determines the pKa of an acid–base indicator using spectrophotome
 
 ## File List: 
 
-## 1. 
+## 1. Manuscript: lab-t_draft-manuscript_2026-02-11.Rmd
+-    Draft manuscript for this project.
 
--   Relationship between files, if important:
--   Additional related data collected that was not included in the
-    current data package:
--   Are there multiple versions of the dataset?
-    -   If yes, name of file(s) that was updated:
-    -   Why was the file updated?
-    -   When was the file updated?
+## 2. Manuscript References: references.bib
+-    Journals/articles citations used in project manuscript.
+
+## 3. Citation style file: peerj.csl
+-    Manuscript citation style.
+
+## 4. gitignore file: .gitignore
+-    A plain text file that tells Git which files/folders to ignore in this project.
+
+## 5. Processed data script: tdata_processed_2026-02-12.R
+-    Data script containing processed raw data (described below).
 
  ## Dataset Description:
 
- ## Raw Dataset: data_raw_2026-01-26
+## Processed Dataset Script: tdata_processed_2026-02-12.R
 
-This file contains the original spectrophotometer measurements collected during Laboratory T on 2025‑01‑26.
-
- This file includes:
- -    Molar absorptivity values
- -    Measured pH values
- -    Absorbance at 435 nm and 593 nm
- -    Henderson-Hasselbalch inputs
- 
-
- ## Processed Dataset: data_processed_2026-02-12.csv
-
- This file contains data processed from data_raw_2026-01-26.csv
+ This file contains data processed from data_raw_2026-01-26.csv. 
 
 This file includes:
  -    Molar absorptivity values
