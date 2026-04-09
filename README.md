@@ -86,17 +86,6 @@ Performed in R using:
 -        Packages: tidyverse, ggplot2, readr, dplyr, here
 -    Environment reproducibility via renv
 
-# DATA-SPECIFIC INFORMATION FOR: [FILENAME]
-
-*repeat this section for each dataset, folder or file, as appropriate*
-
--   Number of variables:
--   Number of cases/rows:
--   Variable List: *list variable name(s), description(s), unit(s) and
-    value labels as appropriate for each*
--   Missing data codes: *list code/symbol and definition*
--   Specialized formats or other abbreviations used:
-
 ## Citation
 
 Recommended citation for this dataset:
