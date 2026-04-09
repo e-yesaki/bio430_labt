@@ -24,7 +24,7 @@ Okanagan, Email:[emiko.yesaki\@gmail.com](mailto:emiko.yesaki@gmail.com){.email}
 -   Links to other publicly accessible locations of the data:
       - OSF: https://osf.io/wa9x4/overview?view_only=4af4a5616f034452946c691757cb9394
 
- # Abstract
+## Abstract
 This project determines the pKa of an acid–base indicator using spectrophotometric measurements across a wide pH range. Absorbance at 435 nm and 593 nm was used to quantify protonated and deprotonated species, enabling construction of speciation and Henderson–Hasselbalch plots. The two analytical approaches produced pKa values of 8.78 and 8.12, respectively, demonstrating strong agreement. All raw data, processed outputs, and analysis scripts are included for reproducibility.
 
 # DATA & FILE OVERVIEW
@@ -46,7 +46,7 @@ This project determines the pKa of an acid–base indicator using spectrophotome
 ## 5. Processed data script: tdata_processed_2026-02-12.R
 -    Data script containing processed raw data (described below).
 
- ## Dataset Description:
+## Dataset Description:
 
 ## Processed Dataset Script: tdata_processed_2026-02-12.R
 
